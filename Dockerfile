@@ -16,4 +16,4 @@ COPY start-datastore .
 
 EXPOSE 8081
 
-ENTRYPOINT ["./start-datastore"]
+ENTRYPOINT ["./start-datastore", "--no-store-on-disk"]
